@@ -1,0 +1,19 @@
+{
+  "name": "nodebackend",
+  "version": "1.0.0",
+  "description": "This is Simple  Node Project",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Server.js"
+  },
+  "author": "Salma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongod": "^2.0.0",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3"
+  }
+}
